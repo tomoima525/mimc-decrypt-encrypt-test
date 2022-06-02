@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "declaration": true,
+    "moduleResolution": "node",
+    "module": "es2020"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "src/test", "dist"]
+}
